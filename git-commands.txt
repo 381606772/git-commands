@@ -55,15 +55,15 @@ $ git rebase <branch>                  # 衍合指定分支到当前分支
 ========================================================远程操作命令=========================================
 
 # 远程操作
-$ git remote -v                        # 查看远程版本库信息
-$ git remote -r                        # 查看远程分支  
-$ git remote show <remote>             # 查看指定远程版本库信息
-$ git remote add <remote> <url>        # 创建远程版本库别名
-$ git fetch <remote>                   # 从远程库获取代码
-$ git pull <remote> <branch>           # 下载代码并快速合并
-$ git push <remote> <branch>           # 上传代码并快速合并
-$ git push --tags                      # 上传所有标签
-$ git remote set-url origin new_url    # 更换远程仓库
-$ git push origin --delete <branch>    # 删除远程分支 
+$ git remote -v                            # 查看远程版本库信息
+$ git remote show    <remote>              # 查看指定远程版本库信息
+$ git remote add     <aliasName> <url>     # 创建远程版本库别名
+$ git remote remove  <aliasName>           # 删除远程版本库别名
+
+
+
+$ git pull <远程仓库地址/别名> <远程分支名>:<本地分支名>
+$ git push <远程仓库地址/别名> <本地分支名>:<远程分支名>
+                                  from         to
 
 
