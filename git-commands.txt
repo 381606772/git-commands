@@ -63,5 +63,15 @@ $ git remote remove  <aliasName>           # 删除远程版本库别名
 $ git pull <远程仓库地址/别名> <远程分支名>:<本地分支名>
 $ git push <远程仓库地址/别名> <本地分支名>:<远程分支名>
                                   from         to
+								  
+Github进行fork后如何与原仓库同步:
+https://blog.csdn.net/matrix_google/article/details/80676034?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=1
+https://blog.csdn.net/qq1332479771/article/details/56087333?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.topblog&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.topblog&utm_relevant_index=2
+https://ld246.com/article/1574920783992
+http://www.javashuo.com/article/p-eefjvzyv-ko.html
+http://www.javashuo.com/article/p-ugvivnzs-hb.html
+http://www.javashuo.com/article/p-dvycrwds-da.html
+http://www.javashuo.com/article/p-coplzlzf-vp.html
+http://www.javashuo.com/article/p-ewguaucc-mv.html
 
 
