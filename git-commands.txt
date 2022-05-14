@@ -1,70 +1,70 @@
-========================================================±¾µØ²Ù×÷ÃüÁî=========================================
+========================================================æœ¬åœ°æ“ä½œå‘½ä»¤=========================================
 
-# ´´½¨°æ±¾¿â
-$ git clone  <url>                     # ¿ËÂ¡Ô¶³Ì°æ±¾¿â
-$ git init                             # ³õÊ¼»¯±¾µØ¿â
-
-
-
-# ĞŞ¸ÄºÍÌá½»
-$ git status                           # ²é¿´×´Ì¬
-$ git diff                             # ²é¿´±ä¸üÄÚÈİ
-$ git add .                            # ¸ú×ÙËùÓĞ¸Ä¶¯¹ıµÄÎÄ¼ş
-$ git add <file>                       # ¸ú×ÙÖ¸¶¨µÄÎÄ¼ş
-$ git mv <old> <new>                   # ÎÄ¼ş¸ÄÃû
-$ git rm <file>                        # É¾³ıÎÄ¼ş
-$ git rm --cached <file>               # Í£Ö¹¸ú×ÙÎÄ¼şµ«ÊÇ²»É¾³ı
-$ git rm -rf folder                    # Í£Ö¹¸ú×Ù²¢É¾³ıÎÄ¼ş¼Ğ
-$ git commit -m "commit message"       # Ìá½»ËùÓĞ¸üĞÂ¹ıµÄÎÄ¼ş
-$ git commit -amend                    # ĞŞ¸Ä×îºóÒ»¸öÌá½»
+# åˆ›å»ºç‰ˆæœ¬åº“
+$ git clone  <url>  -b <branch>        # å…‹éš†è¿œç¨‹ç‰ˆæœ¬åº“
+$ git init                             # åˆå§‹åŒ–æœ¬åœ°åº“
 
 
 
-# ²é¿´Ìá½»ÀúÊ·
-$ git log                              # ²é¿´Ìá½»ÀúÊ·
-$ git log -p <file>                    # ²é¿´Ö¸¶¨ÎÄ¼şµÄÌá½»ÀúÊ·
-$ git blame <file>                     # ÒÔÁĞ±í·½Ê½²é¿´Ö¸¶¨ÎÄ¼şµÄÌá½»ÀúÊ·
+# ä¿®æ”¹å’Œæäº¤
+$ git status                           # æŸ¥çœ‹çŠ¶æ€
+$ git diff                             # æŸ¥çœ‹å˜æ›´å†…å®¹
+$ git add .                            # è·Ÿè¸ªæ‰€æœ‰æ”¹åŠ¨è¿‡çš„æ–‡ä»¶
+$ git add <file>                       # è·Ÿè¸ªæŒ‡å®šçš„æ–‡ä»¶
+$ git mv <old> <new>                   # æ–‡ä»¶æ”¹å
+$ git rm <file>                        # åˆ é™¤æ–‡ä»¶
+$ git rm --cached <file>               # åœæ­¢è·Ÿè¸ªæ–‡ä»¶ä½†æ˜¯ä¸åˆ é™¤
+$ git rm -rf folder                    # åœæ­¢è·Ÿè¸ªå¹¶åˆ é™¤æ–‡ä»¶å¤¹
+$ git commit -m "commit message"       # æäº¤æ‰€æœ‰æ›´æ–°è¿‡çš„æ–‡ä»¶
+$ git commit -amend                    # ä¿®æ”¹æœ€åä¸€ä¸ªæäº¤
 
 
 
-# ³·Ïú
-$ git reset --hard HEAD                # ³·Ïú¹¤×÷Ä¿Â¼ÖĞËùÓĞÎ´Ìá½»ÎÄ¼şµÄĞŞ¸ÄÄÚÈİ
-$ git checkout HEAD <file>             # ³·ÏúÖ¸¶¨µÄÎ´Ìá½»ÎÄ¼şµÄĞŞ¸ÄÄÚÈİ
-$ git revert <commit>                  # ³·ÏúÖ¸¶¨µÄÌá½»
+# æŸ¥çœ‹æäº¤å†å²
+$ git log                              # æŸ¥çœ‹æäº¤å†å²
+$ git log -p <file>                    # æŸ¥çœ‹æŒ‡å®šæ–‡ä»¶çš„æäº¤å†å²
+$ git blame <file>                     # ä»¥åˆ—è¡¨æ–¹å¼æŸ¥çœ‹æŒ‡å®šæ–‡ä»¶çš„æäº¤å†å²
 
 
 
-# ·ÖÖ§Óë±êÇ©
-$ git branch                           # ÏÔÊ¾ËùÓĞ±¾µØ·ÖÖ§
-$ git branch      <branchName>         # ´´½¨ĞÂ·ÖÖ§
-$ git checkout    <branchName>         # ÇĞ»»µ½Ö¸¶¨·ÖÖ§»ò±êÇ©
-$ git checkout -b <branchName>         # ´´½¨²¢ÇĞ»»µ½·ÖÖ§
-$ git branch   -D <branchName>         # É¾³ı±¾µØ·ÖÖ§
+# æ’¤é”€
+$ git reset --hard HEAD                # æ’¤é”€å·¥ä½œç›®å½•ä¸­æ‰€æœ‰æœªæäº¤æ–‡ä»¶çš„ä¿®æ”¹å†…å®¹
+$ git checkout HEAD <file>             # æ’¤é”€æŒ‡å®šçš„æœªæäº¤æ–‡ä»¶çš„ä¿®æ”¹å†…å®¹
+$ git revert <commit>                  # æ’¤é”€æŒ‡å®šçš„æäº¤
 
 
 
-# ºÏ²¢
-$ git merge <branch>                   # ºÏ²¢Ö¸¶¨·ÖÖ§µ½µ±Ç°·ÖÖ§
-$ git rebase <branch>                  # ÑÜºÏÖ¸¶¨·ÖÖ§µ½µ±Ç°·ÖÖ§
+# åˆ†æ”¯ä¸æ ‡ç­¾
+$ git branch                           # æ˜¾ç¤ºæ‰€æœ‰æœ¬åœ°åˆ†æ”¯
+$ git branch      <branchName>         # åˆ›å»ºæ–°åˆ†æ”¯
+$ git checkout    <branchName>         # åˆ‡æ¢åˆ°æŒ‡å®šåˆ†æ”¯æˆ–æ ‡ç­¾
+$ git checkout -b <branchName>         # åˆ›å»ºå¹¶åˆ‡æ¢åˆ°åˆ†æ”¯
+$ git branch   -D <branchName>         # åˆ é™¤æœ¬åœ°åˆ†æ”¯
+
+
+
+# åˆå¹¶
+$ git merge <branch>                   # åˆå¹¶æŒ‡å®šåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯
+$ git rebase <branch>                  # è¡åˆæŒ‡å®šåˆ†æ”¯åˆ°å½“å‰åˆ†æ”¯
 
 
 
 
-========================================================Ô¶³Ì²Ù×÷ÃüÁî=========================================
+========================================================è¿œç¨‹æ“ä½œå‘½ä»¤=========================================
 
-# Ô¶³Ì²Ù×÷
-$ git remote -v                            # ²é¿´Ô¶³Ì°æ±¾¿âĞÅÏ¢
-$ git remote show    <remote>              # ²é¿´Ö¸¶¨Ô¶³Ì°æ±¾¿âĞÅÏ¢
-$ git remote add     <aliasName> <url>     # ´´½¨Ô¶³Ì°æ±¾¿â±ğÃû
-$ git remote remove  <aliasName>           # É¾³ıÔ¶³Ì°æ±¾¿â±ğÃû
+# è¿œç¨‹æ“ä½œ
+$ git remote -v                            # æŸ¥çœ‹è¿œç¨‹ç‰ˆæœ¬åº“ä¿¡æ¯
+$ git remote show    <remote>              # æŸ¥çœ‹æŒ‡å®šè¿œç¨‹ç‰ˆæœ¬åº“ä¿¡æ¯
+$ git remote add     <aliasName> <url>     # åˆ›å»ºè¿œç¨‹ç‰ˆæœ¬åº“åˆ«å
+$ git remote remove  <aliasName>           # åˆ é™¤è¿œç¨‹ç‰ˆæœ¬åº“åˆ«å
 
 
 
-$ git pull <Ô¶³Ì²Ö¿âµØÖ·/±ğÃû> <Ô¶³Ì·ÖÖ§Ãû>:<±¾µØ·ÖÖ§Ãû>
-$ git push <Ô¶³Ì²Ö¿âµØÖ·/±ğÃû> <±¾µØ·ÖÖ§Ãû>:<Ô¶³Ì·ÖÖ§Ãû>
+$ git pull <è¿œç¨‹ä»“åº“åœ°å€/åˆ«å> <è¿œç¨‹åˆ†æ”¯å>:<æœ¬åœ°åˆ†æ”¯å>
+$ git push <è¿œç¨‹ä»“åº“åœ°å€/åˆ«å> <æœ¬åœ°åˆ†æ”¯å>:<è¿œç¨‹åˆ†æ”¯å>
                                   from         to
 								  
-Github½øĞĞforkºóÈçºÎÓëÔ­²Ö¿âÍ¬²½:
+Githubè¿›è¡Œforkåå¦‚ä½•ä¸åŸä»“åº“åŒæ­¥:
 https://blog.csdn.net/matrix_google/article/details/80676034?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=1
 https://blog.csdn.net/qq1332479771/article/details/56087333?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.topblog&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.topblog&utm_relevant_index=2
 https://ld246.com/article/1574920783992
